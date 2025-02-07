@@ -35,7 +35,7 @@ document.querySelector(".yes-btn").addEventListener("click", () => {
     }, 2000);
 
     setTimeout(() => {
-        question.innerHTML = "Yeahhhh!!! I love you Chandani. 💕";
+        question.innerHTML = "Yeahhhh!!! I love you Chandani. 💕 \n I promise to make you happy. I will forever love you.";
         gif.src = "https://media.giphy.com/media/G6N0pDDgDpLjUvNoyQ/giphy.gif";
 
         // Hide buttons after final message

@@ -25,6 +25,7 @@ document.querySelector(".yes-btn").addEventListener("click", () => {
     const gif = document.querySelector(".gif");
     const btnGroup = document.querySelector(".btn-group");
 
+    // Change text & GIF only when "Yes" is clicked
     question.innerHTML = "Forever? 💞";
     gif.src = "https://media.tenor.com/sqMrmFmyejwAAAAM/hug.gif";
 
@@ -34,7 +35,7 @@ document.querySelector(".yes-btn").addEventListener("click", () => {
     }, 2000);
 
     setTimeout(() => {
-        question.innerHTML = "Yeahhhh!!! I love you Chandani. 💕\nI promise you to always make you happy. I will forever love you.";
+        question.innerHTML = "Yeahhhh!!! I love you Chandani. 💕";
         gif.src = "https://media.giphy.com/media/G6N0pDDgDpLjUvNoyQ/giphy.gif";
 
         // Hide buttons after final message
